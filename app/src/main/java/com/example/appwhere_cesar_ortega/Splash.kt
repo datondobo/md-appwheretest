@@ -26,6 +26,7 @@ class Splash : AppCompatActivity() {
             startActivity(Intent(this,InicioSesion::class.java))
 
             // close this activity
+
             finish()
         }, SPLASH_TIME_OUT)
 
