@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mapas">
+
+    <fragment
+        android:id="@+id/navigation_mapas"
+        android:name="com.example.appwhere_cesar_ortega.ui.Mapa.MapaFragment"
+        android:label="@string/title_mapas"
+        tools:layout="@layout/fragment_mapa" />
+
+    <fragment
+        android:id="@+id/navigation_sucursales"
+        android:name="com.example.appwhere_cesar_ortega.ui.Sucursales.SucursalesFragment"
+        android:label="@string/title_sucursales"
+        tools:layout="@layout/fragment_sucursales" />
+
+    <fragment
+        android:id="@+id/navigation_agregar"
+        android:name="com.example.appwhere_cesar_ortega.ui.Agregar.AgregarFragment"
+        android:label="@string/title_agregar"
+        tools:layout="@layout/fragment_agregar" />
+</navigation>
+

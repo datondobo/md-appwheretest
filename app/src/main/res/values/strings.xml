@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">APP_Where</string>
+    <string name="title_Main">Iniciar Sesión</string>
+
+    <string name="title_activity_bottom__navigation">Bottom_Navigation</string>
+    <string name="title_mapas">Mapas</string>
+    <string name="title_sucursales">Sucursales</string>
+    <string name="title_agregar">Agregar</string>
+</resources>
